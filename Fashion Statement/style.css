@@ -1,0 +1,41 @@
+table#update
+	{
+		float: center;
+	}
+
+div#login
+	{
+		text-align: center;
+	}
+
+
+ul#link
+	{
+	padding: 10px;
+	float: right;
+	position: relative;
+	margin:10px;
+	}
+
+ul#link li
+	{
+	display: inline;
+	padding: 10px;
+	}
+
+ul#link li a 
+	{
+	background-color: #ffffff;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 2.8em;
+	color: #000000;
+	border-radius: 12px 12px ;
+	}
+
+ul#link li a:hover
+	{
+	font-weight: bold;
+	background-color: #7FFFD4;
+	}
