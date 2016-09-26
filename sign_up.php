@@ -1,20 +1,21 @@
 <head>
-
+	<script type="text/javascript" src="./validate.js">
+	</script>
 </head>
 
 <body>
 	<div id = "container">
 		<div id="header">
 			<?php
-    			include'../sign_up/header.php';
+ //   			include'../sign_up/header.php';
 			?>
 			<!--add later-->
 		</div>
 		
 		<div id="main">
 			<h1>Sign Up</h1>
-			<form onsubmit="return validate();" method="signup" action="connection.php">
-				<fieldset class = "signup filed"> 
+			<form onsubmit="return validate();" method="post" action="connection.php">
+				<fieldset class = "fldSignup"> 
 					<table id="sign_up">
 						<tr>
 							<td>Username</td>
@@ -30,8 +31,8 @@
 						</tr>
 						<tr>
 							<td>Gender</td>
-							<td><input type="radio" name="rdoGender" value="male"/>Male</td>    
-							<td><input type="radio"name="rdoGender"value="female" /> Female</td>
+							<td><input type="radio" name="rdoGender" value="M" checked = "checked" />Male</td>    
+							<td><input type="radio"name="rdoGender"value="F" /> Female</td>
 						</tr>
 						<tr>
 							<td>Age</td>
@@ -39,7 +40,7 @@
 						</tr>
 						<tr>
 							<td>Email</td>
-							<td><input type="email" name="email" /></td>
+							<td><input type="email" name="txtEmail" /></td>
 						</tr>
 					</table>
 					<br />
@@ -52,7 +53,7 @@
 		<div id="footer">
 		<!--set a footer at the bottom-->
 		<?php
-			include'../sign_up/footer.php';
+//			include'../sign_up/footer.php';
 		?>
 		</div>
 	</div>
