@@ -5,14 +5,14 @@
 		<meta charset = "utf-8" />
 		<title>Profile</title>
 		<link href="style.css" rel="stylesheet">
-		<style>											<!--using <style> tag differently from css to style form-->
+		<style>							<!--using <style> tag differently from css to style form-->
 		form { width: 800px; }
 		label { float: left; width: 150px; }
 		input[type=text] { float: left; width: 350px; }
 		input[type=date] { float: left; width: 150px; }
-		</style>
-		
+		</style>	
 	</head>
+	<!--including header file-->
 	<?php include "head.php" ?><br/><br/><br/><br/><br/>
 	<hr/>
 	<body>
@@ -28,6 +28,7 @@
 			<tr>
 				<td><label for="password" >Password: </label> <td/>
 				<td><input required type = "password"  style="width: 200px;" name = "password" title = "Password"><td/>
+				<!--link to the resetPassword function-->
 				<td><a href="PasswordReset.php"> Reset Password <a/><td/>
 			<tr/>
 			<tr>
@@ -43,13 +44,9 @@
 				<td><label for="email" >Email: </label><td/>
 				<td><input type="email" name="email" /><td/>
 			<tr/>
-			<table/>
-				
-			<input type = "Submit" value = "Update" name = "save" style = "width:100px; padding: 4px;">						<!--Submit Button-->
-			<input type = "Reset" value = "Reset Form" style = " margin:20px; width:100px; padding: 4px;">
-			
-			
-			</form>
-		
+		<table/>		
+			<input type = "Submit" value = "Update" name = "save" style = "width:100px; padding: 4px;"/>						<!--Submit Button-->
+			<input type = "Reset" value = "Reset Form" style = " margin:20px; width:100px; padding: 4px;"/>
+	</form>	
 	</body>
 </html>
