@@ -1,4 +1,4 @@
-
+<!--Connection to the server and database update for the user profiles-->
 <?php
 
 	<!--getting data from the sign up page through post message-->
