@@ -1,0 +1,64 @@
+
+#home
+	{
+	padding: 30px;
+	border-radius: 80px 10px 80px 10px;
+	
+	}
+
+div#title
+{
+	
+	float: left;
+	position: relative;
+}
+
+table#update
+	{
+		float: center;
+	}
+
+div#login
+	{
+		text-align: center;
+		
+	}
+body
+	{
+	font-family: Calibri;
+	font-size: 18px;
+	background-image: url("images/FSN.jpg");
+	color: #000000;
+	background-size:cover;
+	}
+
+ul#link
+	{
+	padding: 10px;
+	float: right;
+	position: relative;
+	margin:10px;
+	}
+
+ul#link li
+	{
+	display: inline;
+	padding: 10px;
+	}
+
+ul#link li a 
+	{
+	background-color: #FF3C3C;
+	padding: 10px 20px;
+	font-weight: bold;
+	text-decoration: none;
+	line-height: 2.8em;
+	color: #000000;
+	border-radius: 12px 12px ;
+	}
+
+ul#link li a:hover
+	{
+	font-weight: bold;
+	background-color: #7FFFD4;
+	}
